@@ -29,6 +29,38 @@ struct lvmengView: View {
                     .padding(.horizontal, 50)
             }
                  
+            VStack (alignment: .leading) {
+                
+                Text ("God Lumeng")
+                    .fontWeight(.black)
+                    .padding(.leading,20)
+                    .padding(.vertical)
+                
+                HStack{
+                   
+                    Text ("Health Points:💛💛💛")
+                        .font(.system(size: 10))
+                        .padding(.leading,20)
+                       
+                    Text ("Gender:Male")
+                        .font(.system(size: 10))
+                        .padding(.horizontal,1)
+                    
+                    Text ("Title:Kokushi of the Light")
+                        .font(.system(size: 10))
+                        .padding(.trailing,20)
+                
+                }
+                
+                Text ("Background Story")
+                    .fontWeight(.black)
+                    .padding(.leading,20)
+                    .padding(.vertical)
+                
+                Text ("Lu Meng (178-220), whose name was Ziming, was born in Fubei County, Runan County (now Lujiagang, Wanghua Town, Funan County, Anhui Province). Famous general in the late Eastern Han Dynasty.")
+                    .font(.system(size: 10))
+                    .padding(.horizontal,20)
+            }
             
             
             
@@ -37,6 +69,7 @@ struct lvmengView: View {
             
             
             }
+        .navigationTitle("神吕蒙")
         }
     }
 

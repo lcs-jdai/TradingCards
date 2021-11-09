@@ -9,7 +9,7 @@ import SwiftUI
 
 struct lvbuView: View {
     var body: some View {
-        
+        ScrollView {
         ZStack {
             Image ("lvbuu")
                 .resizable()
@@ -25,6 +25,39 @@ struct lvbuView: View {
             
         }
        
+        VStack (alignment: .leading) {
+            
+            Text ("Lubu")
+                .fontWeight(.black)
+                .padding(.leading,45)
+                .padding(.vertical)
+            
+            HStack{
+               
+                Text ("Health Points: 4 X ♥️")
+                    .font(.system(size: 10))
+                    .padding(.leading,45)
+                   
+                Text ("Gender:Male")
+                    .font(.system(size: 10))
+                    .padding(.horizontal,1)
+                
+                Text ("Title:Incarnation of Power")
+                    .font(.system(size: 10))
+                    .padding(.trailing,20)
+            
+            }
+            
+            Text ("Background Story")
+                .fontWeight(.black)
+                .padding(.leading,45)
+                .padding(.vertical)
+            
+            Text ("Lu Bu is famous for his bravery. The actual weapon used by Lu Bu is a spear. In The Romance of the Three Kingdoms and other folk art images, Lu Buduo is portrayed as The first fierce general of the Three Kingdoms. Its weapon is also fictitious as Fang Tian's painted halberd.")
+                .font(.system(size: 10))
+                .padding(.horizontal,45)
+        }
+        }
     }
 }
 
