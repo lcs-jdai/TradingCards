@@ -12,11 +12,10 @@ struct DetailView: View {
     var body: some View {
         ScrollView {
             
-            PhotoCaptionView(item.imageName, item.background, item.skill1 , item.skill2 , item.name, item.healthPoint, item.gender, item.title , item.subtitle, item.backgroundStory)
+            PhotoCaptionView(imageName:item.imageName, background: item.background, skill1: item.skill1 , skill2: item.skill2 , name: item.name, healthPoint: item.healthPoint, gender: item.gender, title: item.title , subtitle: item.subtitle, backgroundStory: item.backgroundStory)
 
             
             }
-        .navigationTitle("神吕蒙")
         }
     }
 
